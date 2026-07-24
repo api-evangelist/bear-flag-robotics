@@ -1,8 +1,23 @@
 aid: bear-flag-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bear-flag-robotics.png
 name: Bear Flag Robotics
-description: 'Bear Flag Robotics is a company surfaced as a portfolio company of true-ventures, y-combinator
-  and added to the API Evangelist network as a stub for enrichment. Sector: hardware. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Bear Flag Robotics is an autonomous-tractor company that retrofits existing farm tractors
+  with sensors, onboard compute, and path-planning software to enable driverless field operations such
+  as tillage and row-crop work. Founded in 2017 and backed by Y Combinator and True Ventures, the company
+  was acquired by John Deere in August 2021 and now advances Deere''s autonomy roadmap. It is a hardware
+  and agricultural-robotics business with no public developer API, SDK, documentation portal, or GitHub
+  surface; its website redirects to John Deere.'
 url: https://raw.githubusercontent.com/api-evangelist/bear-flag-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Hardware
+- Robotics
+- Autonomous Vehicles
+- Agriculture
+- Agtech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bear-flag-robotics-domain-security.yml
 - type: Website
   url: http://bearflagrobotics.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
